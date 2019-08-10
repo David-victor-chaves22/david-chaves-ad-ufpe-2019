@@ -1,0 +1,358 @@
+---
+title: "david-chaves-ad-ufpe-2019"
+author: "DAVID CHAVES"
+date: "09/08/2019"
+output: pdf_document
+---
+
+```{r}
+
+```
+
+#####################################################################################
+#####################################################################################
+#####################################################################################
+#############                                                           #############
+#############           UNIVERSIDADE FEDERAL DE PERNAMBUCO              ############# 
+############# PROGRAMA DE POS-GRADUCAO EM CIENCIA POLITICA - MESTRADO   ############# 
+#############                RECIFE, 08 de agosto de 2019               ############# 
+#############          DISCENTE: DAVID VICTOR DE MELO CHAVES            ############# 
+#############                 DOCENTE: DAVI MOREIRA                     ############# 
+#############                                                           ############# 
+#####################################################################################
+#####################################################################################
+#####################################################################################
+
+
+*Link do Github: https://github.com/David-victor-chaves22/david-chaves-ad-ufpe-2019.git*
+
+**Tabalho final David Chaves**
+
+**Dinheiro na mão, eleição no bolso: Relação entre receita e voto nas eleições de 2014 para deputado federal no estado de São Paulo**
+*David chaves (UFPE)*
+
+**Resumo:** *Maiores gastos de campanha, nas eleições de deputados estaduais no estado de São Paulo 2014, resultam em índices de votação mais expressivos?. Utilizando como principal metodologia o modelo de mínimos quadrados ordinários, o seguinte artigo, por meio de uma regressão multivariada, aponta que existem motivos para que se rejeite a hipótese nula de que não existe relação entre gastos de campanha e índices de votação, corroborando a hipótese alternativa de que existe uma relação positiva entre gastos de campanha e índices de votação. O conteúdo do mesmo se divide da seguinte forma: Introdução, revisão de literatura, metodologia, resultados, conclusão e referências bibliográficas.*
+
+**Palavras-chave:** *Eleições, São Paulo, Deputado, Receita, Votos.*
+
+**Resumen:** *¿El mayor gasto de campaña en las elecciones de diputados estatales en el estado de São Paulo 2014, da como resultado tasas de votación más expresivas? Utilizando el modelo de mínimos cuadrados ordinarios como la metodología principal, el siguiente artículo, mediante una regresión multivariante, señala que hay razones para rechazar la hipótesis nula de que no hay relación entre el gasto de campaña y las tasas de votación, corroborando la hipótesis alternativa, de que existe una relación positiva entre el gasto de campaña y las tasas de votación. Su contenido se divide de la siguiente manera: Introducción, revisión de la literatura, metodología, resultados, conclusión y referencias bibliográficas.*
+
+**Palabras llaves:** *Elecciones, São Paulo, Diputado, Receta, Votos.*
+
+**INTRODUÇÃO**
+
+*Um dos temas clássicos, em se tratando da produção científica da Ciência Política contemporânea, é o estudo, a estimação do efeito dos gastos com campanha sobre os resultados das eleições. Comumente, os desenhos de pesquisa apresentam essas particularidades: partindo da premissa de que há uma única direção causal – a receita produz votos –, os modelos utilizados são os de mínimos quadrados ordinários; tendem a uma estimação da receita sobre um tipo de função da parcela de votos recebidos; apresentam a Câmara dos Deputados como a unidade a ser analisada e mensurada, embora, haja também estudos comparativos que trazem informações sobre o Senado e as Assembleias Legislativas.*
+
+**METODOLOGIA**
+
+
+*Este artigo utiliza-se de técnicas de pesquisa quantitativas para o resolver o problema de pesquisa. Dentre elas: estatística descritiva, no intuito de “conhecer a base”, i.e., como se dá a distribuição de casos. Comparação de médias e ANOVA para comparar as médias dos candidatos eleitos por média ou coeficiente partidário, suplentes e não eleitos. Correlação para verificar se a situação e receita estão relacionadas de fato. Regressão mostra o nível de associação dentre essas duas variáveis, a magnitude e a direção por fim.*
+
+
+**REVISÃO DE LITERATURA:**
+
+*No que concerne, especificamente, à metodologia dessas pesquisas, podem ser utilizados dois estágios dos modelos de mínimos quadrados, transformações logarítmicas, e, por vezes, alguns experimentos computacionais, para elucidar as questões referentes à relação entre as sentenças que constituem a informação explanatória e as conclusões. Nesse ínterim, as contribuições de Gary Jacobson devem ser levadas em consideração para se arquitetar um bom estudo na área temática. Primeiramente, Jacobson (1978) menciona que os gastos causam um efeito positivo sobre a quantidade recebida de votos. Segundo o mesmo, challengers têm em média maior eficiência dos gastos do que os incumbents, ou seja, a limitação de recursos tem um impacto negativo sobre o nível de competitividade dos candidatos nas eleições.**
+*Quando partimos para outro ambiente do debate teórico, a discussão relevante é sobre os modelos funcionais mais eficientes para se compreender essa problemática. Tal questão é importante porque, ao que tudo indica, há uma relação de reciprocidade entre votos recebidos e recursos utilizados. Nesse sentido, temos uma relação parecida entre os conceitos de “concentração de renda e concentração de poder” e “comportamento dos congressistas e doações de campanha”. Dessa forma, baseados no arcabouço teórico, temos que o uso de modelos de mínimos quadrados implicaria em estimativas equivocadas. Até mesmo quando são utilizados dois estágios de mensuração, há certas divergências entre os teóricos. Um exemplo a ser mencionado é a contraposição entre os argumentos de Green e Krasno (1988) e Jacobson (1978, p. 475), na qual os primeiros defendem que o gasto dos incumbents tem coeficiente diferente de zero e estatisticamente significativo enquanto o último surge na defesa do papel dos challengers na equação em detrimento dos outros.*
+*Assim, nota-se que o sumo das discussões sobre a temática não está nos debates sobre a elaboração e sofisticação de modelos estatísticos próprios e necessários para o estudo. A questão se dá de outra forma: o arcabouço metodológico, bem como a sua gradativa otimização, surgem como suportes para que os cientistas possam compreender as variáveis que explicam o fenômeno pesquisado. Assim, com toda a fundamentação da teoria, esses especialistas buscam, optando pelo rigor científico, formular e testar hipóteses, além de utilizar de forma adequada as variáveis que fazem parte da pesquisa.*
+
+**RESULTADOS:**
+*De acordo com os dados disponibilizados pelo TSE (2014), 7038- candidatos ao cargo de Deputado Federal concorreram às 70 vagas referentes ao Estado de São Paulo, havendo um gasto médio de R$ 15198,30  Como se pode notar, o desvio padrão, 47791.49, é superior à média, o que sugere uma forte heterogeneidade. Em relação à quantidade de votos, a média foi de47.287,59 votos, com um desvio padrão de 175025.6, o que novamente sugere forte heterogeneidade. Abaixo, a tabela traz uma síntese dessas informações.*
+
+*abrindo pacotes para processamento de dados*
+
+
+```{r} 
+library(car)
+library(sjstats)
+library(fields)
+library(foreign)
+library(readstata13)
+library(ggplot)
+library(ggplot2)
+library(RColorBrewer)
+library(tidyverse)
+   
+```
+  
+*abrir data frames*
+
+```{r}
+candidatos <- read_delim("candidatos.csv", 
+                           delim = ",", 
+                           locale = locale(decimal_mark=",",grouping_mark="."))
+colnames(candidatos)
+  
+  
+  
+votos <- read_delim("votos.csv", 
+                      delim = ",", 
+                      locale = locale(decimal_mark=",",grouping_mark="."))
+colnames(votos)
+  
+receita <-  read_delim("receita.csv", 
+                         delim = ";", 
+                         locale = locale(decimal_mark=",",grouping_mark="."))
+  
+receitacsv <-  read_delim("receitacsv.csv", 
+                         delim = ";", 
+                         locale = locale(decimal_mark=",",grouping_mark="."))
+
+
+colnames(receita)
+receita <- receita %>% 
+rename("NUMERO_CANDIDATO"  = "Numero.candidato")
+
+```
+  
+*juntar data frames*
+
+```{r}  
+dadosfgv <- candidatos %>% inner_join(votos, by = "NUMERO_CANDIDATO")
+
+```
+
+*filtrar dados*
+
+```{r}
+dadosfgv <- dadosfgv %>% 
+    filter(SIGLA_UE == "SP")
+
+```
+  
+*juntar data frame =*
+
+```{r}
+dados <- dadosfgv %>% inner_join(receita, by = "NUMERO_CANDIDATO")
+
+```
+  
+*Remover linhas duplicadas*
+
+```{r}
+dados <- dados[!duplicated(dados),]
+  
+colnames(dados)
+
+```
+  
+*para saber o nr total de candidatos*
+
+```{r}  
+ dim(candidatos)[1]
+ 
+```
+  
+*para saber a media da receita*
+
+```{r}  
+colMeans(receita["Valor.receita"])
+
+```
+
+*para saber o desvio padrao da receita*
+
+```{r}  
+sd(receita$Valor.receita)
+
+```
+  
+*para saber a media da quantidade de votos*
+
+```{r}
+colMeans(votos["QTDE_VOTOS"])
+
+```
+  
+*para saber o desvio padrao da quantidade de votos*
+
+```{r}  
+sd(votos$QTDE_VOTOS)
+
+```
+
+*Tabela 01 - Estatística descritiva de Receita Total e Votação*
+
+**Receita total**
+
+*Mínimo* *Máximo* *Média* *Desvio Padrão* 
+*,00*   *200000*  *15198,30* *47791.49*
+
+**Votação**
+
+*Mínimo* *Máximo* *Média* *Desvio Padrão*
+ *3*    *2700262* *47.287,59* *175025.6*
+
+
+*A campanha mais dispendiosa foi a do deputado Carlos Alberto Rolim Zarattini (PT/PC do B), que teve um gasto de R$ 6.244.292,85 e obteve 138.286 votos. Um dado relevante é que não há dados representativos da receita total de 1.062 candidatos. Além disso, 8 candidatos declararam que não tiveram gasto para a candidatura (R$ 0,00),havendo também casos de gastos de poucas centenas de reais, o que aponta para um nível baixo de confiabilidade acerca da prestação de contas dos candidatos.*
+*De acordo com os casos encontrados, e, como sugere Samuels apud Figueiredo Filho (2006), “as quantias declaradas não refletem completamente as quantias de fato usadas” (p.134). Mas essa baixa confiabilidade não inutiliza as informações coletadas. Assim, quando há uma análise sistemática dessas informações, podemos identificar certos padrões que já são esperados. “A probabilidade matemática de que padrões possam emergir de números aleatórios, para todos os objetivos, é zero” (SAMUELS apud FIGUEIREDO FILHO, 2006, p. 134).*
+
+**Tabela 02 – Estatística descritiva de Situação**
+
+**Eleito por média**
+*Frequência* *Porcentagem* 
+    *8*          *0,6*
+**Eleito por QP**
+*Frequência* *Porcentagem* 
+   *62*          *4,7*
+**Não eleito**
+*Frequência* *Porcentagem* 
+    *350*        *26,6*
+**Suplente**
+*Frequência* *Porcentagem* 
+    *896*        *68,1*
+**Total**
+*Frequência* *Porcentagem* 
+  *1316*        *100,0*
+
+*A tabela acima apresenta as estatísticas descritivas acerca da situação dos candidatos. Dos 1316 candidatos, 8 (0,6%) foram eleitos por média e 62 (4,7%) por quociente partidário. Além disso, 896 (68,1%) foram classificados para suplentes e 350 (26,6%) não foram eleitos. É interessante o fato de  menos do que 1% dos candidatos terem sido eleitos com média de votos,  tendo a grande maioria sido eleita pelo quociente partidário.*
+
+#grafico de barra
+```{r}
+#grafico de barra
+ggplot(dados, aes(x= Sigla..Partido, y= QTDE_VOTOS))+
+  geom_col()
+```
+
+*Os gráficos acima sintetizam informações em relação à média da receita total das coligações partidárias que concorreram às vagas pelo Estado de São Paulo. A coligação que obteve a maior receita média (PT/PC do B) apresentou o valor de R$ 918.104,97. A segunda maior receita média (PSDB/DEM/PPS) apresentou um valor de R$ 658.033,00. A receita média das coligações foi de R$ 182.515,55. A coligação que apresentou menor receita média (PCB), apresentou o valor de R$ 370,00. Mesmo com um investimento médio maior, a coligação (PT/PC do B) ocupa o terceiro lugar em relação à quantidade de votos recebidos por coligação, apresentando números menores do que as coligações (PSDB/DEM/PPS) e (PR). Os gráficos abaixo elucidarão esses dados.*
+
+*grafico de barra*
+```{r}
+ggplot(dados, aes(x= Sigla..Partido, y= Valor.receita))+
+  geom_col()
+
+ggplot(dados, aes(x= Sigla..Partido, y= QTDE_VOTOS))+
+  geom_col()
+```
+
+*A coligação que obteve maior quantidade de votos (PSDB/DEM/PPS) obteve uma média de 55.829,35 votos. Em segundo lugar, o PR obteve uma média de 51.049,33 votos. Já a coligação (PT/PC do B) apresentou uma quantidade média de 36.530,72 votos. A média do número de votos recebidos pelas coligações foi de 13.701,26 votos. Os quatro menores valores médios de votos foram atingidos por partidos que não formaram coligações, estando todos os quatro casos abaixo da média. O PCO obteve uma média de 525,20 votos.Já o PSDC obteve uma média de 550,85 votos e o PCB, que foi o partido com menor receita média, obteve uma média de 707,20 votos.*
+
+**Tabela 03 - Média da Receita Total / Situação**
+
+**Eleitos por média e Eleitos por QP**
+*Média*  *N* *Desvio Padrão*
+*1792679,2424* *70* *1458005,14912*
+
+**Suplentes**
+*Média*  *N* *Desvio Padrão*
+*109719,2776* *896* *350464,89869*
+
+**Não eleitos**
+*Média*  *N* *Desvio Padrão*
+*29203,9550* *350* *139476,18850*
+
+**Total**
+*Média*  *N* *Desvio Padrão*
+*177824,7750* *1316* *590048,44892*
+
+*A tabela acima apresenta a estatística descritiva de variável receita total/situação para os 3 grupos analisados: (1) Eleitos por QP e por média, (2)Suplentes e (3) Não eleitos. Consta-se que, em média, o grupo dos não eleitos (29203,9550) investe uma quantidade menor de recursos, em números totais, se comparado com os grupos dos suplentes (109719,2776) e eleitos (1792679,2424). Quando comparado os desvios padrões podemos perceber uma grande heterogeneidade entre grupos, nota-se que o grupo dos candidatos eleitos (145805,14912) é muito menos heterogêneo do que os grupos dos não eleitos (139476,18869) e suplentes (350464,89869)*
+
+**Tabela 05 - Correlação entre Votação e Receita Total**
+
+*correlacao das variveis votos e receita*
+```{r}
+cor(dados$QTDE_VOTOS, dados$Valor.receita)
+```
+*Na tabela acima, observa-se uma correlação de 0,441 entre as variáveis votação e receita total dos candidatos ao cargo de deputado federal. Cohen(1988) propõe a seguinte classificação para interpretar o efeito da correlação: r= 0,10 até 0,29 pequeno; r = 0,30 até 0,49 médio e 0,50 até 1 grande. desta maneira é possível concluir que existe uma associação média entre a quantidade de recursos investidos nas campanhas e o número de votos recebidos pelo candidatos.* *Provavelmente o resultado seria distinto se 100% das receitas fossem declaradas, como em nossa base de dados assumimos que receita não declarada = 0 existe um viés decorrente da mensuração.*
+*Utilizo neste desenho de pesquisa a técnica de Mínimos Quadrados Ordinários, uma técnica de Regressão, para mensurar o impacto do aumento na arrecadação de votos na situação do candidato, ou seja, o quanto contribui para ser eleito. Duas variáveis foram inseridas no modelo, Situação – devido ao fato de que as variáveis precisam ser quantitativas, a variável qualitativa Situação, variável dummy (suplente e não eleito receberam valor 0, enquanto que eleito por média e eleito por coeficiente partidário valor 1) - é a variável dependente e Receita Total, a independente.*
+*A fórmula de regressão consiste na seguinte expressão: Y = ax + b, x Onde Y é a variável dependente, Suplente; α é a constante; β é a porcentagem de quanto a variável independente, Receita Total, explica a Situação. E é o erro, o que não conseguimos explicar.*
+*O objetivo é refutar a hipótese nula, de que o aumento na arrecadação de receita não aumenta a chance do candidato ser eleito. Como já foi visto no decorrer do artigo, fomos teoricamente orientados a presumir que o aumento na receita significa maior chance de ser eleito, hipótese alternativa.*
+
+**Tabela 06 - Modelo bivariado Regressão.**
+
+*regressao primeiro modelo bivariado*
+```{r}
+modelo.1 <- lm(dados$QTDE_VOTOS ~ dados$Valor.receita)
+
+summary(modelo.1)
+```
+
+*No primeiro modelo a variável dependente se refere ao valor da receitas recebidas pelo candidatos a deputados federais nas eleições de São Paulo 2014, a independente por sua vez diz respeito a quantidade de votos recebido por estes. Ou seja, a relação que estamos tentando observar aqui é o quanto o aumento da receita por candidatos influencia em sua taxa de votação.*
+*Com um P-valor significativo, podemos descartar a hipótese nula de que não existe relação entre as variáveis do modelo. Primeiramente, o alfa de 4.34, que indica que com o crescimento tendo valor 0 este seria o valor estimado da quantidade de votos. O coeficiente beta da variável independente por sua vez é de 1.698, ou seja, esse é o valor que se altera na Variável dependente para alterações de valor 1 na variável independente. Em outras palavras, tendo o aumento de R$ 1,00 real em receita, equivale-se a um incremento de 1,69 votos. É importante notar que o modelo tem um erro de 4.955, ou seja, o erro representa tudo que não está incluso no modelo e fatores aleatórios que podem afetá-lo.*
+*A capacidade do modelo se dá pelo seu R2 ajustado, variando de 0 a 1, uma medida que ajusta a capacidade explicativa ao número de variáveis, tem valor de 0.01785. Isso indica que nosso modelo tem uma capacidade explicativa de aproximadamente 17,85% sobre a variável dependente*
+
+*tranfomracao de variaveis, de nominal para dummy*
+```{r}
+dados <- dados %>%
+mutate(GENERO = recode (DESCRICAO_SEXO,
+                        "MASCULINO" = 1, 
+                        "FEMININO"= 0))
+```
+  
+*regressao segundo modelo multivariado*
+```{r}
+modelo.2 <- lm(dados$QTDE_VOTOS ~ dados$Valor.receita + dados$GENERO)
+
+summary(modelo.2)
+```
+
+*Já o segundo modelo, multivariado, a variável dependente se mantém o valor da receitas recebidas pelo candidatos a deputados federais nas eleições de São Paulo 2014. Entretanto neste modelo apresenta duas variáveis independentes , quantidade de votos recebidos e gênero. Ou seja, a relação que estamos tentando observar aqui é o quanto o aumento da receita por candidatos influencia em sua taxa de votação tendo gênero como uma variável de controle nesta relação.*
+*O P-valor continua significativo. Primeiramente, o alfa de 1,321 que indica que com o crescimento tendo valor 0 esse seria o valor estimado da quantidade de votos para uma mulher. O coeficiente beta da variável independente receita passa a ser de é de 1.629. Controlado pela variável gênero esse valor passa a ser de 3,553, ou seja, esse é o valor que se altera na Variável dependente para alterações de valor 1 na variável independente. Em outras palavras, tendo o aumento de R$ 1,00 real em receita, equivale-se a um incremento de 3,553 votos para um candidato homem. Ou seja, o recorte de gênero influencia na relação entre receitas e votos, sendo os candidatos homens contemplados nessa relação.*
+*É importante notar que o modelo tem um erro de 7,430, ou seja, o erro representa tudo que não está incluso no modelo e fatores aleatórios que podem afeta-lo. A capacidade do modelo se dá pelo seu R2 ajustado, variando de 0 a 1, uma medida que ajusta a capacidade explicativa ao número de variáveis, tem valor de 0,05937. Isso indica que nosso modelo tem uma capacidade explicativa de aproximadamente 59, 37% sobre a variável dependente.*
+
+CONCLUSÃO
+
+*Como é comum quando se faz uma pesquisa científica, caminhos técnicos e metodológicos são escolhidos para garantir a solidez do estudo e, com isso, perde-se um pouco da abrangência da explicação do fenômeno estudado. Com isso, a melhor forma de avaliar um trabalho desse tipo é em relação à elaboração das medidas de análise e não apenas levando em consideração o quanto a pesquisa explica e abrange o fenômeno.*
+*Esse artigo levantou, primeiramente, um debate sobre a problemática que envolve a pesquisa nessa área, mencionando os conceitos das referências teóricas do estudo. Assim, a pesquisa atentou para a relação entre o financiamento de campanha por meio de grupos de interesse e a regulação consequente. Dessa forma, utilizando o caso do financiamento das campanhas de candidatos a Deputados Federais pelo Estado de São Paulo, buscamos evidenciar os elementos que despertam a vontade desses grupos de interesse de investir nos candidatos. Nesse sentido, o estudo aponta para a possibilidade de que os grupos de interesse participam do processo eleitoral com o intuito de assegurar influência nos processos consequentes inerentes ao exercício dos cargos no poder Legislativo, seja garantindo favores futuros ou mesmo apenas evitando que as decisões dos atores políticos tomem não atinjam negativamente os grupos de interesse.*
+*Dessa maneira, há o estabelecimento de uma relação corporativa, o que Figueiredo Filho (2009), denominou “elo corporativo”, entre esses grupos familiares e os congressistas. Assim, ele afirma que a literatura especializada reúne uma grande quantidade de evidências no sentido de “legitimar o argumento de que os grupos efetuam doações no intuito de receber algo em troca”, e, que essa relação demonstra aparenta dar certo.*
+*Nesse ínterim, faz-se mister levantar um dado relevante: se os grupos de interesse buscam uma contrapartida favorável dos atores políticos financiados por eles, é necessário que a variável independente, que são as despesas com campanha, tenha um efeito positivo sobre a variável dependente em questão, que é a quantidade de votos recebidos pelos atores políticos. De outra forma, não seria lógico que os Deputados eleitos respondessem às demandas dos financiadores e, justamente por isso, o investimento desses*
+
+*últimos seria irracional. Dessa forma, esse trabalho demonstra que não há independência estatística entre as variáveis mensuradas. Pelo contrário: a hipótese nula é rejeitada e a alternativa é acolhida. Assim, temos que a receita influencia na quantidade de votos recebidos.*
+*No entanto, outro ponto interessante levantado pelo estudo é a existência, no sistema proporcional brasileiro, e levando em consideração o caso dos candidatos ao cargo de Deputado Federal pelo Estado de São Paulo, de um grande número de atores políticos que são eleitos pelo quociente partidário, o que aponta para uma grande quantidade de votos concentrada em poucos políticos e muitos políticos eleitos, muitas vezes, com quantidades ínfimas de votos recebidos.*
+*Portanto, sabendo da imensidão de técnicas e metodologias que podem ser utilizadas para adentrar nessa área, esse artigo busca trazer luz à problemática seguindo os caminhos já mencionados e com a certeza de que muito já foi realizado, mas que há necessidade de um aprofundamento da Ciência Política em relação a essa temática para dar o real valor que a área merece. Assim, esse artigo surge como mais um sinal apontando para a possibilidade de estudos comparativos que tenham um potencial inferencial mais profundo no porvir.*
+
+**Apêndice metodológico:**
+
+*Graficos da relacoe das duas variaveis*
+
+*Scatterplots*
+```{r}
+ggplot(dados, aes(x = Valor.receita, y = QTDE_VOTOS)) +
+  geom_point()
+```
+
+*relacao entre valor e votos por numero de patido*
+```{r}
+ggplot(dados, aes(x = Valor.receita, y = QTDE_VOTOS)) +
+  geom_point()+
+  facet_wrap(~NUMERO_PARTIDO)
+```
+
+*log de Valor.receita*
+```{r}
+ggplot(dados, aes(x = Valor.receita, y = QTDE_VOTOS)) +
+  geom_point()+
+  scale_x_log10()
+```
+
+*Histograms*
+```{r}
+dados %>% ggplot() + 
+  geom_histogram(aes(x = Valor.receita), binwidth = 4000)
+
+dados %>% ggplot() + 
+  geom_histogram(aes(x = QTDE_VOTOS), binwidth = 4000)
+
+dados %>% 
+  ggplot() + 
+  geom_histogram(aes(x = NUMERO_PARTIDO))
+```
+
+*Linegraphs*
+```{r}
+ggplot(dados, aes(x= Valor.receita, y= QTDE_VOTOS))+
+  geom_line()
+
+#Bar plots
+ggplot(dados, aes(x= Sigla..Partido, y= Valor.receita))+
+  geom_col()
+
+ggplot(dados, aes(x= Sigla..Partido, y= QTDE_VOTOS))+
+  geom_col()
+
+
+dados %>% ggplot() +
+  geom_bar(aes(x = Sigla..Partido))
+```
+
+
+
